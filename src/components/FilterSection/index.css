@@ -1,0 +1,49 @@
+.horizontal-line {
+  border: 2px solid #2c364c;
+  border-radius: 2px;
+  margin: 20px 0px;
+}
+
+.filter-heading {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.mobile-view-horizontal {
+  display: none;
+}
+
+.filter-unordered-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.filter-list-element {
+  align-self: flex-start;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.filter-label-element {
+  font-size: 15px;
+  margin-left: 7px;
+}
+
+@media screen and (max-width: 600px) {
+  .horizontal-line {
+    border: 2px solid #2c364c;
+    border-radius: 2px;
+    margin: 20px 0px;
+    width: 90%;
+  }
+
+  .mobile-view-horizontal {
+    display: flex;
+    border: 2px solid #b6c5ff;
+    border-radius: 2px;
+    width: 90%;
+    margin: 20px 0px;
+  }
+}

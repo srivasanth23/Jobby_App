@@ -1,0 +1,15 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+  background-color: black;
+}
+
+.para {
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+}

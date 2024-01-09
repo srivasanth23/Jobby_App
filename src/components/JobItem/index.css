@@ -1,0 +1,106 @@
+.jobs-list-item {
+  width: 70vw;
+  background-color: #272727;
+  margin: 20px 0px;
+  border-radius: 10px;
+  padding: 25px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-element {
+  text-decoration: none;
+  color: white;
+}
+
+.about-company-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.companyLogoUrl {
+  height: 70px;
+  width: 70px;
+  margin-right: 20px;
+}
+
+.company-title {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.company-rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.star {
+  color: rgb(255, 255, 29);
+  font-size: 16px;
+}
+
+.other-details-div {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.other-details-div div {
+  display: flex;
+  flex-direction: row;
+}
+
+.company-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.icons {
+  margin-right: 5px;
+}
+
+.package {
+  font-size: 20px;
+}
+
+.horizontal-item {
+  width: 100%;
+  margin: 12px 0px;
+  border: 1px solid rgba(255, 255, 255, 0.542);
+}
+
+.job-item-description-heading {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .jobs-list-item {
+    width: 90vw;
+    border-radius: 15px;
+  }
+
+  .company-icon-container {
+    margin-right: 20px;
+  }
+
+  .job-item-description {
+    font-size: 14px;
+  }
+
+  .horizontal-item {
+    margin: 10px 0px;
+  }
+}

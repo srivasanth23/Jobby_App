@@ -1,0 +1,145 @@
+.job-item-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100%;
+}
+
+.aligner {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-title-i {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.detail-item-view-container {
+  background-color: black;
+  color: white;
+  height: 100%;
+  display: flex;
+  padding: 30px 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.job-item-details-container {
+  width: 70vw;
+  margin: 20px 0px;
+  border-radius: 10px;
+  padding: 25px 15px;
+  background-color: #272727;
+}
+
+.job-item-heading {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.description-link-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.visit-link {
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.job-details-skills-items-container {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.skill-item {
+  margin: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.job-item-description {
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+
+.skill-name {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.job-details-life-at-company-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.unordered-list-similar-jobs-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.similar-jobs-container {
+  width: 70vw;
+}
+
+.similar-jobs-heading {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .skill-img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .skill-name {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+
+  .skill-item {
+    margin: 10px;
+    width: 120px;
+  }
+
+  .job-item-details-container {
+    width: 90vw;
+  }
+
+  .job-item-description {
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
+
+  .job-details-life-at-company-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .similar-jobs-container {
+    width: 90vw;
+  }
+}
